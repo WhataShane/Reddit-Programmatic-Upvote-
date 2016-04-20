@@ -6,7 +6,7 @@ s = requests.session()
 
 username = raw_input("Username:")
 password = raw_input("Password:")
-urlForPost = aw_input("URL:")
+urlForPost = raw_input("URL:")
 
 headers = {'user-agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36'}
 data = {'op':'login-main',
